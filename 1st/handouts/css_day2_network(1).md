@@ -142,7 +142,7 @@ HyperText Transfer Protocol
 
 ---
 ```python
-> from urllib.request from urlopen
+> from urllib.request import urlopen
 > response = urlopen('https://www.google.com/')
 > response
 > response.readline()
@@ -152,14 +152,16 @@ HyperText Transfer Protocol
 
 ---
 ```python
-> from urllib.request from urlopen
+> from urllib.request import urlopen
 > import urllib.error
 > try:
-> 	urlopen('https://www.google.com/')
+> 	urlopen('https://www.naver.com/')
 > except urllib.error.HTTPError as e:
 > 	print('status', e.code)
 > 	print('reason', e.reason)
 > 	print('url', e.url)
+
+
 > response.getheaders()
 ```
 
@@ -291,6 +293,8 @@ User(Universal) Datagram Protocol
 ---
 ### Wireshark
 [download](https://www.wireshark.org/#download) 
+ip.addr !=  . . . . && tcp
+
 
 ---
 ## intranet vs Internet vs internet

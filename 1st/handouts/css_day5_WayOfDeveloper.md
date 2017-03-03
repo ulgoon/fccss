@@ -24,6 +24,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 ```
 
+```css
+p[title='1234'] { background-color:#333333;}
+
+```
+
 ---
 ## Web Crawling with Selenium
 ```python
@@ -64,7 +69,6 @@ for item in page1_results:
 - Developer: can design `system`
 - Programmer: can design `algorithm`
 - Coder: can produce `code` from `pseudo code`
-
 
 ---
 ## 개발자가 갖춰야 할 덕목

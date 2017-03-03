@@ -164,6 +164,21 @@ if __name__ == '__main__':
 ```
 
 ---
+## c9.io
+```
+from flask import Flask
+import os
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'hello world!'
+
+app.run(host=os.getenv('IP', '0.0.0.0'),port=int(os.getenv('PORT', 8080)))
+```
+
+---
 ## Simple Server Framework: Flask
 ```python
 from flask import Flask, render_template
@@ -176,7 +191,7 @@ def index(name=None):
 	return render_template('index.html', name=name)
 
 @app.route('/about')
-def index(name=None):
+def about(name=None):
 	return render_template('about.html', name=name)
 
 if __name__ == '__main__':
@@ -283,7 +298,7 @@ all_tr = table.find_all("tr")
 
 for tr in all_tr:
      all_td = tr.find_all("td")
-     score = all_td[0].find("span", attrs={"class":"tMeterScore"}).text
+     score = all_td[0].find("span", att rs={"class":"tMeterScore"}).text
      movie_name = all_td[1].a.text
      amount = all_td[2].a.text
      print(score, movie_name, amount)

@@ -174,7 +174,7 @@ It aims at establishing a **culture** and **environment** where building, testin
 ## Sprint
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scrum_process.svg/700px-Scrum_process.svg.png)
 
----
+--- 
 ## Planning Poker
 
 - 애자일 추정을 위해 사용하는 도구
