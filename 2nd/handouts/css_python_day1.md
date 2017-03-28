@@ -142,7 +142,7 @@ cmd.exe(for CLI MS-DOS)
 `$` : Shell 명령어의 시작
 
 ```shell
-$ ls
+$ l
 $ ls -al
 
 $ cd Documents
@@ -303,7 +303,7 @@ Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
-Flat is bette
+Flat is better
 Sparse is better than dense.
 Readability counts.
 
