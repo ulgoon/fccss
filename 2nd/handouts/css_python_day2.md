@@ -43,6 +43,7 @@ $ git clone https://github.com/pyenv/pyenv-virtualenv.git $PYENV_ROOT/plugins/py
 
 ~/.bashrc
 $ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+$ source ~/.bashrc
 $ exec "$SHELL"
 ```
 ```shell
@@ -183,7 +184,7 @@ def comein(where):
     where = ['mother','sister']
 
 comein(room)
-print(comein)
+print(room)
 ```
 
 ---
@@ -248,8 +249,8 @@ len(some_string)
 |-6|-5|-4|-3|-2|-1|
 
 ```python
-some_string[3:5] = "hon"
-some_string[1:5:2] = "yhn"
+some_string[3:5] = "ho"
+some_string[1:5:2] = "yh"
 some_string[::] = some_string[0:len(some_string):1]
 some_string[::-1] = "nohtyp"
 ```
@@ -303,6 +304,7 @@ user = {'name':'fastcampus','age':'27',city:['seoul','busan','incheon']}
 ---
 ## List detail
 ```
+python_is_easy = ['python', 'c', 'java']
 python_is_easy[start:end]
 
 python_is_easy[0:5]
