@@ -12,5 +12,18 @@ while True:
     if guess == answer:
         print("Correct!")
         break
+    elif guess > answer:
+        print("Too High")
+    elif guess < answer:
+        print("Too Low")
     else:
         print("You are wrong!")
+
+
+
+
+
+
+
+
+
