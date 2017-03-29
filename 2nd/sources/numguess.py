@@ -5,6 +5,7 @@ answer = random.randint(1,100)
 print(answer)
 
 username = input("What is your name? ")
+chance = 3
 
 while True:
     guess = eval(input("Hi, " + username + ". Guess the number: "))
@@ -13,11 +14,15 @@ while True:
         print("Correct!")
         break
     elif guess > answer:
-        print("Too High")
+        chance -= 1
+        print("Too High. (%d times left)" % (chance))
     elif guess < answer:
-        print("Too Low")
-    else:
-        print("You are wrong!")
+        chance -= 1
+        print("Too Low. (%d times left)" % (chance))
+    
+    if chance == 0:
+        print("You are dead.")
+        break
 
 
 
