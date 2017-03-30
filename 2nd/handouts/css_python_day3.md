@@ -75,6 +75,25 @@ some_dict = {
 ```
 
 ---
+### dictionary example
+```python
+{
+	'user':[
+    {
+    	'id':'kingwangjjang',
+        'name':'gil-dong Hong',
+        'password':'skwhaWkddlsemt',
+        'address':'',
+        'phone':'',
+    }
+    
+    
+    ]
+}
+```
+
+
+---
 ### dictionary는 key와 value로 이루어져 있으며, 추가하는 법은 다음과 같습니다.
 ```python
 dict1 = {'name': 'foo bar'}
@@ -196,6 +215,13 @@ else:
 
 how to make it with more fun??
 
+- 크다, 작다(o)
+- 같으면? 출력(o)
+- 재도전(o)
+- 기회
+- 틀릴때 약올리기
+- 범위를 주고 힌트를 주기(o)
+
 ---
 ## For, while
 ```python
@@ -214,13 +240,10 @@ for i in ["python", "java", "golang"]:
 sum = 0
 for i in range(1,11):
 	sum += i
+    sum = sum + i
 	print(sum)
 ```
-### List Comprehension
-```python
-result = [i for i in range(1,11)]
-print(result)
-```
+
 
 ---
 ## For, while
@@ -336,7 +359,8 @@ from string import ascii_lowercase as lo_case
 ### encrypt code
 ```python
 def caesar(s, k, decode = False):
-    if decode: k = 26 - k
+    if decode: 
+    	k = 26 - k
     return s.translate(
         str.maketrans(
             up_case + lo_case,
