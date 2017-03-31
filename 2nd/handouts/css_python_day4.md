@@ -76,17 +76,17 @@ def mul_return(a):
 ```python
 def id_check(id):
 	if id == "admin":
-    	print("invalid id: admin")
-    	return
-    print("valid id: ", id)
+    		print("invalid id: admin")
+    		return
+	print("valid id: ", id)
 ```
 
 ---
 ## parameter with initialize
 ```python
-def say_hello(name, nick=True):
+def say_hello(name="Fool", nick=True):
 	print("Hi, ", name)
-	if nick:
+	if nick == True:
 		print("But, you are Fool")
 	else:
 		print("Oh, you are not Fool")
