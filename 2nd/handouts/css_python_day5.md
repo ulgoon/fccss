@@ -122,8 +122,10 @@ def recurse_beast(a):
 	if a == 0:
 		print("curse complete!")
 	else:
-		print("Fusion!!!(%d times left)" % a)
+		print("Fusion!!!(%d times left)" % a - 1)
 		recurse_beast(a-1)
+
+recurse_beast(times)
 ```
 
 ---
@@ -278,7 +280,7 @@ f.close()
 ```python
 f = open("Newfile.txt", 'a')
 for i in range(1,11):
-	text = "line %d. \n" % i
+    text = "line %d. \n" % i
     f.write(text)
 f.close()
 ```
@@ -372,7 +374,7 @@ except FileNotFoundError as e:
 	print(e)
 else:
 	text = f.read()
-    f.close()
+	f.close()
 ```
 
 ---
