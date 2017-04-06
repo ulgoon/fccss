@@ -1,12 +1,12 @@
 import random
 
-
+# store answer to answer
 answer = random.randint(1,100)
 print(answer)
-
+# ask username and set chance to 3
 username = input("What is your name? ")
 chance = 3
-
+# main process evaluate input and compare with answer
 while True:
     guess = eval(input("Hi, " + username + ". Guess the number: "))
 

@@ -91,7 +91,7 @@ whereas `"computation"` might involve applying rules in a systematic way
 
 ---
 ### Computational Thinking Process
-![](img/cssal1.1.png)
+![](../../img/cssal1.1.png)
 
 ---
 ### Computational Thinking Process
@@ -108,11 +108,11 @@ whereas `"computation"` might involve applying rules in a systematic way
 ### Patch & Debug
 
 ---
-![](img/csspunchcard.jpg)
+![](../../img/csspunchcard.jpg)
 
 ---
 ### Basic Computer Architecture
-![](img/cssca1.1.png)
+![](../../img/cssca1.1.png)
 
 ---
 ### Basic Computer Architecture
