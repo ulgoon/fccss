@@ -1,8 +1,8 @@
 import socket
 
 
-host = 'www.google.com'
-port = 80
+host = 'localhost'
+port = 12345
 bufsiz = 4096
 addr = (host, port)
 
