@@ -286,6 +286,26 @@ $ vi users.db
 ```
 
 ---
+## SQLite - Create table & Insert User
+```
+$ sqlite3 user.db
+SQLite version 3.16.0 2016-11-04 19:09:39
+Enter ".help" for usage hints.
+sqlite> CREATE TABLE user (
+   ...> id integer primary key autoincrement,
+   ...> name text not null,
+   ...> age integer,
+   ...> lang text);
+sqlite> INSERT INTO user ( name, age, lang)
+   ...> VALUES('Fastcampus', 3, 'Python');
+sqlite> .tables
+user
+sqlite> SELECT * FROM user;
+1|Fastcampus|3|Python
+sqlite> .exit
+```
+
+---
 ## SQLite - insert data
 
 - sqlite3.connect 메소드를 이용해서 DB 파일에 연결한 후 'Connection' 객체를 생성한다.
