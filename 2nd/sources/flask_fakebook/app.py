@@ -37,7 +37,14 @@ def postuser():
 
 @app.route('/users')
 def users():
-    return render_template("users.html")
+    conn = lite.connect("users.db")
+    conn.row_factory = lite.Row
+
+    cur = conn.cursor()
+    cur.execute("SELECT * from user")
+
+    rows = cur.fetchall()
+    return render_template("users.html", rows = rows)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

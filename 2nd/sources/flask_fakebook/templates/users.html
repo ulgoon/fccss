@@ -10,5 +10,34 @@
   <a href='/signup'>Sign up</a>
   <a href='/users'>Show users</a>
   <h2>List of users</h2>
+  <table>
+   <thead>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Email</td>
+   </thead>
+   <tbody>
+    {% for row in rows %}
+     <tr>
+         <td>{{ row['name'] }}</td>
+         <td>{{ row['age'] }}</td>
+         <td>{{ row['email'] }}</td>
+     </tr>
+    {% endfor %}
+   </tbody>
+  </table>
  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
