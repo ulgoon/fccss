@@ -1,3 +1,8 @@
+#Custom
+*.pyc
+1st/
+2nd/
+
 #vagrant
 Vagrantfile
 .vagrant/
