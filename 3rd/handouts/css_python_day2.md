@@ -406,6 +406,13 @@ while 1:
 ---
 ## Fizzbuzz
 
+1부터 100까지 반복
+
+3의 배수 = "Fizz"
+5의 배수 = "Buzz"
+15의 배수 = "FizzBuzz"
+나머지 = 그 숫자
+
 ---
 ## Fizzbuzz
 
