@@ -1,7 +1,6 @@
 # Fastcampus
 ## 컴퓨터공학 입문 스쿨
 ### Python Basic_Day3
-2017.3.29
 
 ---
 <!--
