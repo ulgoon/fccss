@@ -165,6 +165,7 @@ print(ppap)
 pineapple = set('pineapple')
 pineapple
 ```
+
 ---
 ## Set
 A = 'fastcampus' 
