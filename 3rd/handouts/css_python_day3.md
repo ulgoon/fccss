@@ -1,6 +1,6 @@
 # Fastcampus
 ## 컴퓨터공학 입문 스쿨
-### Python Basic_Day3
+### Pytuhon Basic_Day3
 
 ---
 <!--
@@ -24,6 +24,12 @@ switch = 0
 ---
 ### Monty Hall Simulation
 ```python
+import random
+
+
+stay = 0
+switch = 0
+
 for i in range(1000):
     doors = [1,0,0]
     random.shuffle(doors)
@@ -36,6 +42,9 @@ for i in range(1000):
         stay = stay + 1
     else:
         switch = switch + 1
+
+print("stay: %4d" % stay)
+print("switch: %4d" % switch)
 ```
 
 ---
@@ -78,6 +87,7 @@ while num1 >= 1:
     else:
         print("%4d %7d keep" % (num1, num2))
         result += num2
+        # result = result + num2
         
     num1 = num1 // 2
     num2 = num2 * 2
@@ -167,8 +177,9 @@ pineapple
 
 ---
 ## Set
-A = 'fastcampus' 
-B = 'python'
+A = set('fastcampus') 
+
+B = set('python')
 
 A ∪ B	== `A | B`
 A ∩ B	== `A & B`

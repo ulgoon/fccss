@@ -1,7 +1,7 @@
 # Fastcampus
 ## 컴퓨터공학 입문 스쿨
 ### Python Basic_Day4
-2017.3.30
+
 
 ---
 <!--
@@ -10,8 +10,8 @@ $size: A4
 footer : fastcampus 컴퓨터 공학 입문 스쿨, Wooyoung Choi, 2017
 -->
 ## Mini Project
-List comprehension 으로 FizzBuzz 한줄로 구현하기
-
+- List comprehension 으로 FizzBuzz 한줄로 구현하기
+- Numguess 기능 추가하기
 ---
 `["Fizz"*(not i%3) + "Buzz"*(not i%5) or i for i in range(1,100)]`
 
