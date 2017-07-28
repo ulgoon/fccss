@@ -135,7 +135,7 @@ kwargs_url("localhost","8080", utm_source="google", keyword="naver")
 a = "hello"
 def glob_test(a):
 	a += "world"
-    return a
+	return a
 
 glob_test(a)
 print(a)
@@ -144,7 +144,7 @@ print(a)
 a = "hello"
 def glob_test(x):
 	x += "world"
-    return x
+	return x
 
 glob_test(a)
 print(a)
@@ -259,7 +259,7 @@ a - 추가모드(파일의 마지막에 새로운 내용을 추가)
 ## Create New File
 ```python
 f = open("Newfile.txt", 'w')
-f.close()
+f.close() 
 ```
 
 ---
