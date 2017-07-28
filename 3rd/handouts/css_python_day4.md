@@ -71,7 +71,6 @@ func_wo_return()
 ## function with multiple return
 ```python
 def mul_return(a):
-	a = a
     b = a + 1
 	return a,b
 ```
@@ -106,6 +105,15 @@ def mul_sum(*args):
 	for i in args:
 		sum += i
 	return sum
+```
+
+---
+## keyword arguments
+```python
+def show_kwargs(**kwargs):
+	print(str(kwargs))
+
+show_kwargs(a=10, b="google")
 ```
 
 ---
