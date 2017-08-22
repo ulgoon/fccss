@@ -25,7 +25,7 @@ A computer network or data network is a telecommunications network which allows 
 ---
 ## Charcteristics of Network
 - 컴퓨터사이의 리소스를 공유
-- 네트워크로 연결된 다른 컴퓨터에 접근하여 파일을 생성, 수정, 삭제할 수 있음
+- 네트워크로 연결된 다른 컴퓨터에 접근하여 파일을 생성, 수정, 삭제할 수 있음 
 - 프린터와 스캐너, 팩스 등의 출력장치에 네트워크를 연결하여 여러 컴퓨터가 동시 접근 가능
 
 ---
