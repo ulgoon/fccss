@@ -54,3 +54,8 @@
 
 ### Software Engineering
 
+### References
+
+https://ansuchan.com/install-vundle-and-nerdtree/
+
+http://blog.ulgoon.com/my-dev-environment/
