@@ -1,6 +1,7 @@
 import socket
 from time import ctime
 
+
 host = 'localhost'
 port = 12345
 bufsiz = 1024
