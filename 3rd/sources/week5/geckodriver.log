@@ -1,0 +1,30 @@
+1503555303819	geckodriver	INFO	geckodriver 0.18.0
+1503555303875	geckodriver	INFO	Listening on 127.0.0.1:62849
+1503555305229	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503555307284	Marionette	INFO	Listening on port 62862
+1503555307619	Marionette	DEBUG	loaded listener.js
+2017-08-24 15:15:07.703 plugin-container[62528:8629810] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-24 15:15:07.704 plugin-container[62528:8629810] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503555344419	Marionette	INFO	Ceased listening
+1503555347255	geckodriver	INFO	geckodriver 0.18.0
+1503555347391	geckodriver	INFO	Listening on 127.0.0.1:63004
+1503555348600	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503555352877	Marionette	INFO	Listening on port 63015
+1503555353385	Marionette	DEBUG	loaded listener.js
+2017-08-24 15:15:53.552 plugin-container[62573:8631764] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-24 15:15:53.553 plugin-container[62573:8631764] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503555452285	Marionette	INFO	Ceased listening
+1503555456646	geckodriver	INFO	geckodriver 0.18.0
+1503555456707	geckodriver	INFO	Listening on 127.0.0.1:63358
+1503555457795	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503555459948	Marionette	INFO	Listening on port 63369
+1503555460226	Marionette	DEBUG	loaded listener.js
+2017-08-24 15:17:40.309 plugin-container[63179:8637015] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-24 15:17:40.312 plugin-container[63179:8637015] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503555484474	Marionette	INFO	Ceased listening
