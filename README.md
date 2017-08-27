@@ -52,6 +52,8 @@
 
 ### Database Basic
 
+![](./img/css-sqlite.png)
+
 ### Software Engineering
 
 ### References
