@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Fakebook | Fastcampus</title>
+ </head>
+ <body>
+  <h1>Fakebook</h1>
+  <nav>
+   <ul>
+    <li>
+     <a href="/">home</a>
+     <a href="/signup">Sign Up</a>
+     <a href="/users">User List</a>
+    </li>
+   </ul>
+  </nav>
+
+  <h2>Sign up</h2>
+  <p>This is signup page</p>
+
+  {{ msg }}
+
+  <form action="{{ url_for('submit') }}" method="POST">
+   <h3>Name</h3>
+   <input type="TEXT" name="name">
+   <h3>Age</h3>
+   <input type="TEXT" name="age">
+   <h3>Email</h3>
+   <input type="TEXT" name="email">
+   <input type="SUBMIT" value="submit">
+  </form>
+
+ </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Fakebook | Fastcampus</title>
+ </head>
+ <body>
+  <h1>Fakebook</h1>
+  <nav>
+   <ul>
+    <li>
+     <a href="/">home</a>
+     <a href="/signup">Sign Up</a>
+     <a href="/users">User List</a>
+    </li>
+   </ul>
+  </nav>
+
+  <h2>Users</h2>
+  <p>This is User list page</p>
+
+  <table>
+   <thead>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Email</th>
+   </thead>
+   <tbody>
+    {% for row in rows %}
+    <tr>
+     <td>{{ row['name'] }}</td>
+     <td>{{ row['age'] }}</td>
+     <td>{{ row['email'] }}</td>
+    </tr>
+    {% endfor %}
+   </tbody>
+  </table>
+ </body>
+</html>
