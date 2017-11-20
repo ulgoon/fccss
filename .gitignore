@@ -2,6 +2,7 @@
 *.pyc
 1st/
 2nd/
+3th/
 
 #vagrant
 Vagrantfile
