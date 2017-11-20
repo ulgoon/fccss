@@ -1,8 +1,6 @@
 #Custom
 *.pyc
-1st/
-2nd/
-3rd/
+legacy/
 
 #vagrant
 Vagrantfile
