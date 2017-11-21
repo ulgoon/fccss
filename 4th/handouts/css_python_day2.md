@@ -218,7 +218,7 @@ y = temp
 
 ### 혹은 함수에서 하나 이상의 값을 반환할 때 사용합니다.
 ```python
-def quot_and_rem(a,b):
+def quot_and_rem(x,y):
     quot = x // y
     rem = x % y
     return (quot, rem)
@@ -229,8 +229,8 @@ def quot_and_rem(a,b):
 ---
 ### List <-> Tuple
 ```python
-list([1,2])
-tuple((1,2))
+list((1,2))
+tuple([1,2])
 ```
 
 ---
