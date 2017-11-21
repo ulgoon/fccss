@@ -143,6 +143,25 @@ whereas `"computation"` might involve applying rules in a systematic way
 - 엄격한 문법
 
 ---
+### C vs Python
+```c
+int main(){
+int num;
+for(i=0;i<=10;i++){
+if (i % 2 == 0){
+        	
+}
+}
+}
+```
+
+```python
+for i in range(1,10+1):
+	if i % 2 == 0:
+	    	print(i)
+```
+
+---
 ## Python Basic
 
 Python으로 할 수 있는 것들!
