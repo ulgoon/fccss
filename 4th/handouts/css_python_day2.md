@@ -267,6 +267,7 @@ len(some_string)
 some_string[3:5] = "ho"
 some_string[1:5:2] = "yh"
 some_string[::] = some_string[0:len(some_string):1]
+some_string[::-1] = some_string[-1:-len(some_string):-1]
 some_string[::-1] = "nohtyp"
 ```
 
