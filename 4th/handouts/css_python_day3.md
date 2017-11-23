@@ -1,6 +1,6 @@
 # Fastcampus
 ## 컴퓨터공학 입문 스쿨
-### Pytuhon Basic_Day3
+### Python Basic_Day3
 
 ---
 <!--
@@ -59,13 +59,13 @@ print(dict1.items())
 
 ---
 ## Small Quiz
-A = 'fastcampus' 
-B = 'python'
+A = 'fastcampus' = [f, a, s, t, c, m, p, u]
+B = 'python' = [p, y, t, h, o, n]
 
-A ∪ B
-A ∩ B
-A - B
-A &#916; B 
+A ∪ B = f,a,s,t,c,m,p,u, y, h, o, n
+A ∩ B = 
+A - B = 
+A &#916; B =  
 
 ---
 ## Set
@@ -205,20 +205,16 @@ else:
 cash = 120000
 if cash > 100000:
     print("go to restaurant")
+elif cash > 50000:
+    print("go to bobjib")
+elif cash > 30000:
+    print("go to buffet")
+elif cash > 20000:
+    print("go to ramen store")
+elif cash > 10000:
+    print("go to chinese restaurant")
 else:
-        if cash > 50000:
-            print("go to bobjib")
-        else:
-            if cash > 30000:
-                print("go to buffet")
-            else:
-                if cash > 20000:
-                    print("go to ramen store")
-                else:
-                    if cash > 10000:
-                        print("go to chinese restaurant")
-                    else:
-                        print("go to cvs")
+    print("go to cvs")
 ```
 
 ---
@@ -435,6 +431,7 @@ def function(parameter):
 	실행문1
 	실행문2
 	...
+	return output 
 ```
 
 ---
