@@ -1,0 +1,14 @@
+body {
+    background:rgb(0,255,0);
+}
+
+/*
+ * 주석은 이렇게 답니다.
+ */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2.0em
+}
+p {
+    line-height: 1.4em;
+    color: gray;
+}

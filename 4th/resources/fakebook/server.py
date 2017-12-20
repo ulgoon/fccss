@@ -1,11 +1,22 @@
-from flask import Flask
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello Flask!"
+    return render_template("index.html")
+
+# signup => 사용자가 정보를 입력하는 페이지
+@app.route('/signup')
+def signup():
+    return render_template("signup.html")
+
+# users => 모든 사용자를 조회할 수 있는 페이지
+@app.route('/users')
+def users():
+    return render_template("users.html")
+
 
 @app.route('/hello')
 def hello():
