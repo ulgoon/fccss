@@ -6,6 +6,7 @@
  </head>
  <body>
   <h1>Sign Up</h1>
+  {% include 'menu.html' %}
   <form action="{{ url_for('submit') }}" method="POST">
    <h3>Name</h3>
    <input type="text" name="name">
