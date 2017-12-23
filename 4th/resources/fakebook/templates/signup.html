@@ -1,23 +1,16 @@
-<!doctype html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>My First Flask Page</title>
- </head>
- <body>
-  <h1>Sign Up</h1>
-  {% include 'menu.html' %}
-  <form action="{{ url_for('submit') }}" method="POST">
-   <h3>Name</h3>
-   <input type="text" name="name">
-   <h3>Age</h3>
-   <input type="text" name="age">
-   <h3>Lang</h3>
-   <input type="text" name="lang">
-   <input type="submit" value="저장하기">
-   <button type="reset" value="reset">초기화</button>
-   <h2>{{ msg }}</h2>
-  </form>
+{% extends "layout.html" %}
+{% block content %}
 
- </body>
-</html>
+<h1>Sign Up</h1>
+<form action="{{ url_for('submit') }}" method="POST">
+ <h3>Name</h3>
+ <input type="text" name="name">
+ <h3>Age</h3>
+ <input type="text" name="age">
+ <h3>Lang</h3>
+ <input type="text" name="lang">
+ <input type="submit" value="저장하기">
+ <button type="reset" value="reset">초기화</button>
+ <h2>{{ msg }}</h2>
+</form>
+{% endblock %}

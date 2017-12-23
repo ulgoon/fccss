@@ -1,14 +1,6 @@
-<!doctype html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>My First Flask Page</title>
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/style.css") }}">
- </head>
- <body>
-  <h1>Home</h1>
-  {% include 'menu.html' %}
-  <p>안녕하세요. 저는 패스트캠퍼스의 컴퓨터 공학스쿨을 듣고 있는 수강생입니다. </p>
-  <p>안녕하세요. 저는 패스트캠퍼스의 컴퓨터 공학스쿨을 듣고 있는 수강생입니다. </p>
- </body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+<h1>Home</h1>
+<p>안녕하세요. 저는 패스트캠퍼스의 컴퓨터 공학스쿨을 듣고 있는 수강생입니다. </p>
+<p>안녕하세요. 저는 패스트캠퍼스의 컴퓨터 공학스쿨을 듣고 있는 수강생입니다. </p>
+{% endblock %}
