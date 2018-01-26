@@ -1,6 +1,7 @@
 #Custom
 *.pyc
 legacy/
+tobe/
 
 #vagrant
 Vagrantfile
