@@ -39,7 +39,7 @@ whereas `"computation"` might involve applying rules in a systematic way
 - `Stored Program` computer -> Computer
 	- Stores and Executes intructions
 - `Fixed Program` computer -> Calculator
-	- just calculate
+	- just calculate 
 
 엇? 그럼 공학용 계산기는???
 
@@ -177,7 +177,7 @@ Python으로 할 수 있는 것들!
 ---
 ## Zen of Python - PEP 20
 ```python
-import this
+>>> import this
 ```
 
 ---
@@ -307,11 +307,11 @@ print(num1/num2)
 
 **sample output**
 ```
-r = 10
+r = 10 ==> print("r =", r)
 d = 20
 c = 62.830
 a = 314.15
-gnb = 2261.88
+gnb = 1256.0000
 v = 4188.666666666667
 ```
 
