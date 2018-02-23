@@ -5,7 +5,7 @@
 [http://school.fastcampus.co.kr/extension_cs/](http://school.fastcampus.co.kr/extension_cs/)
 
 ## QUIZ
-1주차: [https://goo.gl/forms/quWqf2y3CPurdfpg1](https://goo.gl/forms/quWqf2y3CPurdfpg1)
+[https://goo.gl/forms/zO9z9b1m5qn2ryDO2](https://goo.gl/forms/zO9z9b1m5qn2ryDO2)
 
 ## Computational Thinking
 - Computer Science and Engineering?
