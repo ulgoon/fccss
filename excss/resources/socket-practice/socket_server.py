@@ -28,6 +28,6 @@ if __name__ == '__main__':
                 client_socket.send(bytes(ctime(), 'utf-8'))
             except KeyboardInterrupt:
                 print("Exited by KeyboardInterrupt")
-            
+
        client_socket.close()
-    server_socket.close()            
+    server_socket.close()
