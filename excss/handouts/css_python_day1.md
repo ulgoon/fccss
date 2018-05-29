@@ -11,7 +11,9 @@ footer : fastcampus Computer Science Extension School, Wooyoung Choi, 2018
 ## Introduce
 ### 최우영
 
+- Developer, Co-founder at Disceptio
 - Solution Architect, Web Developer, Instructor
+- Publish: Python Web Crawling Bootcamp(gilbut,2019)
 - Skills: Python, Golang, Julia, Node.js, Google tag manager ...
 
 #### blog: https://blog.ulgoon.com/
@@ -174,6 +176,10 @@ Python으로 할 수 있는 것들!
 ## Let's install Python!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9Hmcp5GKdV8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+### MacOS
+- install brew(brew.sh)
+- `$ brew install python`
+
 ---
 ## Zen of Python - PEP 20
 ```python
@@ -315,67 +321,15 @@ gnb = 1256.0000
 v = 4188.666666666667
 ```
 
----
-## Let's Code PYTHONIC
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800" rel="stylesheet">
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
 
----
-## Important Python Enhance Proposal
-### Layout
-- 들여쓰기: 공백 4칸 or 탭(섞어쓰면 안됨)
-- 한 줄은 79자(120자도 상관없음)
-- 클래스정의와 최상위 함수는 두 줄을 띄움
-- 클래스 내 메소드는 한 줄을 띄움
-
----
-## Important Python Enhance Proposal
-### Variables
-- `_variable`: 내부적으로 사용되는 변수
-- `print_` : 파이썬 키워드와 충돌 방지
-
----
-## Naming Convention
-- 클래스 이름은 `CamelCase`
-- 함수, 변수, 메소드 이름은 `snake_case`
-
-### 파이썬에서 쓰이지 않는 네이밍 규칙
-- `chHungarianNotation`
-- `javaScriptStyleCamelCase`
-
----
-### Syntax
-> 문법, 구조, 또는 언어 문장 내에 있는 구성요소의 순서
-
-"나는 입니다 학생" (Syntax Error)
-"나는 학생 입니다" (Syntactically Valid)
-
-"Python"5 (Syntax Error)
-3.6 * 12 (Syntactically Valid)
-
----
-## Let's learn python with jupyter
-
----
-### type casting
-float(3) --> int to float
-int(3.6) --> float to int
-str(1) --> int to string
-int("12") --> string to int
-
----
-## input
-```python
-name = input("What is your name? ")
-print("Hi, ", name)
-```
-
-## input with evaluation
-```python
-input("How old are you? ")
-eval(input("How old are you? "))
-```
-
----
-## type casting with input
-```python
-int(input("How old are you? "))
-```
+<style>
+h1,h2,h3,h4,h5,h6,
+p,li, dd {
+font-family: 'Nanum Gothic', Gothic;
+}
+span, pre {
+font-family: Hack, monospace;
+}
+</style>
