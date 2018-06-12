@@ -1,6 +1,6 @@
 # Fastcampus
 ## Computer Science Extension School
-### Python Basic_Day4
+### Python Basic_Day5
 
 ---
 <!--
