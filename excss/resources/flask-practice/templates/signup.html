@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Sign up::Fastcampus</title>
+ </head>
+ <body>
+  <h1>Sign up</h1>
+  <h3>{{ msg }}</h3>
+  <a href="/">Home</a>
+  <form action="{{ url_for('postuser') }}" method="post">
+   <label>name: <input type="text" name="name"></label>
+   <label>age: <input type="text" name="age"></label>
+   <label>lang: <input type="text" name="lang"></label>
+   <input type="submit">
+  </form>
+ </body>
+</html>

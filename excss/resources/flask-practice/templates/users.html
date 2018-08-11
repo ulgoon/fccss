@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Users::Fastcampus</title>
+ </head>
+ <body>
+  <h1>Users</h1>
+  <a href="/">Home</a>
+  <a href="/signup">Sign up</a>
+  <table>
+   <thead>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Lang</th>
+   </thead>
+   <tbody>
+    {% for row in rows %}
+    <tr>
+        <td>{{ row["name"] }}</td>
+        <td>{{ row["age"] }}</td>
+        <td>{{ row["lang"] }}</td>
+    </tr>
+    {% endfor %}
+   </tbody>
+  </table>
+ </body>
+</html>
