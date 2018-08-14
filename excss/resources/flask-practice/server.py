@@ -44,7 +44,8 @@ def postuser():
             with lite.connect('users.db') as conn:
                 cur = conn.cursor()
 
-                cur.execute()
+                cur.execute("insert into users(name, age,lang) \
+                    values (?,?,?);", (name,age,lang))
                 conn.commit()
                 msg = "Sign up is successfull"
         except:

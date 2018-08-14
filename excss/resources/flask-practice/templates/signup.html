@@ -6,8 +6,21 @@
  </head>
  <body>
   <h1>Sign up</h1>
-  <h3>{{ msg }}</h3>
-  <a href="/">Home</a>
+ <ul>
+  <li>
+   <a href="/">Home</a>
+  </li>
+  <li>
+   <a href="/calc">Link</a>
+  </li>
+  <li>
+   <a href="/users">View users</a>
+  </li>
+  <li>
+   <a href="/signup">Signup</a>
+  </li>
+  </ul>
+ <h3>{{ msg }}</h3>
   <form action="{{ url_for('postuser') }}" method="post">
    <label>name: <input type="text" name="name"></label>
    <label>age: <input type="text" name="age"></label>
