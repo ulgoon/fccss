@@ -47,7 +47,7 @@ def postuser():
                 cur.execute("insert into users(name, age,lang) \
                     values (?,?,?);", (name,age,lang))
                 conn.commit()
-                msg = "Sign up is successfull"
+                msg = "Sign up is successful"
         except:
             conn.rollback()
             msg = "Sign up failed"
